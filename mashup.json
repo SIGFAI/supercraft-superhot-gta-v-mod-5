@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SUPERCRAFT, mod 5: SUPERHOT × GTA V",
   "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in GTA V with a funny twist of your own.",
+  "how_to_play": [
+    "Steal the black car, run down the Red Gang in the plaza, then wreck the police cruisers.",
+    "Press F near a car to steal it and F again to get out.",
+    "Drive with WASD or the arrow keys, Space is the handbrake and H the horn.",
+    "Time runs at the speed of your car: brake for bullet time, floor it for real time."
+  ],
   "kind": "mashup",
   "games": [
     {
