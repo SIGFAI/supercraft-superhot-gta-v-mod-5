@@ -1,0 +1,227 @@
+{
+  "id": "sigf/supercraft-superhot-gta-v-mod-5",
+  "version": "1.0.0",
+  "name": "SUPERCRAFT, mod 5: SUPERHOT × GTA V",
+  "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in GTA V with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "gta5",
+      "role": "guest",
+      "label": "GTA V"
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "supercraft-superhot-gta-v-mod-5.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/blip_car.png",
+              "sha256": "7cefb82ed631b1a277f95fec577764d0773376e2a19884f27e6aa3bca3a27219"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/blip_cop.png",
+              "sha256": "b85dd4bdce883aa5189f1b2c40106ae955458e9dab885868aa44f74e87a65b07"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/blip_enemy.png",
+              "sha256": "ae83cdb46def367c2693776de9b294ee66cfae543872912a5b49725ce8cd80e8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/blip_mission.png",
+              "sha256": "84c40956b87c36b3c2dcdc90e3bb2f627f15382e179c9375950edd408f371eba"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/blip_player.png",
+              "sha256": "7d710e579af55d6600ddc45bfe475f74f4b4725e5a64114fd7967cfc322b2829"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/cash_icon.png",
+              "sha256": "95263f8d0ab4633290402af33a9b0aac3307ab4714129413768d5f0512eb36fd"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/fire.png",
+              "sha256": "a56e170df573fe8facfa639b6775e17f69d89a7520208a94c1f688e298580c7f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/marker_ring.png",
+              "sha256": "89ae36821a332da77219fc5a050f8905a5b2b8879e708487fb51130c46db3b11"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/phone_frame.png",
+              "sha256": "ef0e0d669262ec2feede183d3a31fef992348ef2afd06e217b7798a4c9d4eb16"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/radar_bg.png",
+              "sha256": "af35b82d96c94f251317d3395b5b93e4df674821bfa12140163d9b05de3032d1"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/radar_frame.png",
+              "sha256": "97a4d8c81804f5ed0aceb858932be638f84446a37d480eae81d96f17bd52aef0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/radar_mask.png",
+              "sha256": "b6dd9185ccb958a097ff38452826d2d86196a7642e8ea31fe0b10ff5d801a2cc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/smoke.png",
+              "sha256": "e29b54fdc7366a2c47cd51519a25439948fd9a4810ace605aa04df2372fdc791"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/spark.png",
+              "sha256": "81b8a3e3ab951f9ecf93f578c6ee884a8b9b7b7af56518d0de0de13b985dc1f2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/star_empty.png",
+              "sha256": "3236e1d20654841cb6f83d3e9473e2f3468b68db645b63ef62d47076bc4ed8d2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/star_full.png",
+              "sha256": "48024ca1d284bb027b7bcc942ebd8f20debffdfbf0a4c0e8efddd4175eb196ca"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/title_mission_passed.png",
+              "sha256": "10a111cf64cef26845062e5e3f53f7b7b564ecfeef64b93539d19c326f4837e7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/title_respect.png",
+              "sha256": "c6419aa296287049415642519d67b2fac9b6b6bdd45d098065ec2d5889c310ba"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/title_supercraft.png",
+              "sha256": "6ad219c3831f29e2c1d8d3ce1f2f4e016b18e8963da1b90a852d07bb7a3f1836"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/title_wanted.png",
+              "sha256": "0ba8fc5ccb43ba2c06311a693502406aa021e16b57eecbf7ee65f0c23f108e8a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hud/title_wasted.png",
+              "sha256": "2fc531e74483b2e7bba3a0a79fc658e6e4ce91a7767ebe8d3c6f390d3b7b4b5b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/bullet_hit_metal.wav",
+              "sha256": "01df277a474898a91508b9e583059a02f879c5204f11fb790e7a292d61516407"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/cash.wav",
+              "sha256": "c4c54e84b85b4e336de31fe51d97f4f33cb115470b2ca0bdb5d7053bb56b6889"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/crash.wav",
+              "sha256": "d068435f27c046623c154c7f6aa151b5cf443f36feef9002dc822849b9b1e982"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/door.wav",
+              "sha256": "1217035eaf26f9706794bfde8e4e02741a984b346261bff3f1ed561e932f4307"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/engine_loop.wav",
+              "sha256": "b47b7e4266217c62906c43498406e4636964d12db1ed4f8b76516b6d8eab9a99"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/engine_start.wav",
+              "sha256": "3e54e056cb87118ded46b2d1f7cbdd376c42ae56e35af2eece5493d8a2b38a5b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/explosion.wav",
+              "sha256": "80badba512a038e4a59573ee1983cdcc89f33e00086513fe21e48a86b2a17428"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/fire_loop.wav",
+              "sha256": "ff0f0ffa498dddecf87d157c661415820654845c68375dc07051592d2610e26d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/horn.wav",
+              "sha256": "10ae9c18464207dcb0fe7f69c32cac449c81b55c21263a879620a172dea43348"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/mission_passed.wav",
+              "sha256": "5d796bd830ab1e2bdc4f71c5a88ca7b917956ed91d0d03804172528228ea6ebd"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/phone_ring.wav",
+              "sha256": "8a13569d70e2c3d7c92c73c6ea66ac47e3d3337fb7786869ba2e9919a7a8dce6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/radio_music.wav",
+              "sha256": "10cf988e0ec333df6b0c55f2652ba573149ea5777f1997f1690a79dc4d3a2c7c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/radio_static.wav",
+              "sha256": "62039b660ee05990183f382aebccbb7ee719db405110806fb48a12734b1f0a8e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/siren_loop.wav",
+              "sha256": "e0823324d395fbdba097f568050824b93a62f6948995c3fc665e38230ef98519"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/tire_screech.wav",
+              "sha256": "621049f782413fb7d5e60e281fe1fc8b6ac1595e4d551e5ebd4cb6c09d908e08"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/wasted.wav",
+              "sha256": "5504a6758a31f1d571125260e181bdd31e8d7de8bb02ae37d2d27766c6de10c4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "d1f9e977810da2c6cb7212efed2ab493641c74e68ff2124a3c46dafe955a844f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "30ae6361ff6cc438039138438da3427abcb4cc4c9407931755f85187ae0e180b"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/supercraft-superhot-gta-v-mod-5/releases/download/v1.0.0/supercraft-superhot-gta-v-mod-5.zip",
+          "sha256": "2745d6ce71f1798fba8464b350c0887dee57a78f35f4d9743d31186892bdcb1d",
+          "size": 8052390
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "supercraft-superhot-gta-v-mod-5.zip",
+      "url": "https://github.com/SIGFAI/supercraft-superhot-gta-v-mod-5/releases/download/v1.0.0/supercraft-superhot-gta-v-mod-5.zip",
+      "sha256": "2745d6ce71f1798fba8464b350c0887dee57a78f35f4d9743d31186892bdcb1d",
+      "size": 8052390
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/supercraft-superhot-gta-v-mod-5",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SUPERCRAFT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:27:35.522Z"
+}
